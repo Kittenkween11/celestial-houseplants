@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 30px;
+}
+
+header button {
+  background-color: #4CAF50;
+  border: none;
+  color: #ffffff;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 18px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 48px;
+}
+
+h1 {
+  font-size: 45px;
+  color: #5e2795;
+  margin-bottom: 20px;
+  font-family: 'Caveat', sans-serif;
+  text-align: center;
+}
+
+.shop-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.product-card {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 300px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.product-info p {
+    margin: 0;
+    color: #666;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+header button.active {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 20px;
+  color: #333333;
+  line-height: 1;
+  margin-bottom: 18px;
+  font-family: 'Centaur', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
