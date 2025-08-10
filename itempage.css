@@ -1,0 +1,29 @@
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 400px;
+    height: auto;
+    padding-left: 125px;
+    padding-right: 100px
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 50%;
+}
+
+.price {
+    font-size: 30px;
+    color: #333;
+    margin: 20px 0;
+    padding-top: 20px
+}
